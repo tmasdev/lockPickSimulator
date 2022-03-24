@@ -60,21 +60,23 @@
     top:-30px;
     width: 2vh;
     height: 8vh;
-background: #964600;
+    background: #964600;
 }
 
 #shortHook{
     width: 60vh;
     height: 6vh;
     border: solid black 2px;
+    position: relative;
+    top:0px;
 }
 #shortHookHook{
     position: absolute;
     height: 1.5vh;
     width: 5vh;
-    margin: 2vh auto;
-    border-top: solid black 1.565vh;
-    border-left: solid black 1.565vh;
+    margin: 2.0vh auto;
+    border-top: solid black 1.5vh;
+    border-left: solid black 1.5vh;
     border-top-left-radius: 10vh;
 }
 #shortHookArm{
